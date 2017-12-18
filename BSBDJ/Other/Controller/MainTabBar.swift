@@ -36,23 +36,23 @@ class MainTabBar: UITabBar {
     override func layoutSubviews() {
         //调用父类的方法
         super.layoutSubviews()
-//
-//        if zc_height > kTabBarHeight {
-//            zc_height = kTabBarHeight
-//        }
-//
-//        let btnW = zc_width / 5
-//        let btnH = zc_height
-//        let btnY: CGFloat = 0
-//        var index: CGFloat = 0
-//        publishButton.center = zc_center
-//        for view in subviews {
-//            if view.isKind(of: NSClassFromString("UITabBarButton")!){
-//                let buttonX = (index < 2) ? index * btnW : (index + 1) * btnW
-//                view.frame = CGRect(x: buttonX, y: btnY, width: btnW, height: btnH)
-//                index += 1
-//            }
-//        }
+
+        if zc_height > kTabBarHeight {
+            zc_height = kTabBarHeight
+        }
+
+        let btnW = zc_width / 5
+        let btnH = zc_height
+        let btnY: CGFloat = 0
+        var index: CGFloat = 0
+        publishButton.center = zc_center
+        for view in subviews {
+            if view.isKind(of: NSClassFromString("UITabBarButton")!){
+                let buttonX = (index < 2) ? index * btnW : (index + 1) * btnW
+                view.frame = CGRect(x: buttonX, y: btnY, width: btnW, height: btnH)
+                index += 1
+            }
+        }
 
     }
 
@@ -67,7 +67,7 @@ class MainTabBar: UITabBar {
 extension MainTabBar {
 
     @objc fileprivate func clickPublishButton() {
-//
+
 //        let publishVC = PublishViewController()
 //
 //        UIApplication.shared.keyWindow?.rootViewController?.present(publishVC, animated: false, completion: nil)
