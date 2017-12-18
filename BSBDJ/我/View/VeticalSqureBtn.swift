@@ -78,16 +78,16 @@ extension VeticalSqureBtn {
         guard url.hasPrefix("http:") else {
             return
         }
-        guard let tab = UIApplication.shared.keyWindow?.rootViewController as? UITabBarController else {
+        guard (UIApplication.shared.keyWindow?.rootViewController as? UITabBarController) != nil else {
             return
         }
-        let webVC = MeWebViewController()
-        webVC.urlString = url
-        webVC.btnTitle = content?.name ?? ""
-        let vc = tab.childViewControllers[tab.selectedIndex] as! MainNavigationController
-
-        print(vc)
-        vc.pushViewController(webVC, animated: true)
+//        let webVC = MeWebViewController()
+//        webVC.urlString = url
+//        webVC.btnTitle = content?.name ?? ""
+//        let vc = tab.childViewControllers[tab.selectedIndex] as! MainNavigationController
+//
+//        print(vc)
+//        vc.pushViewController(webVC, animated: true)
     }
 }
 

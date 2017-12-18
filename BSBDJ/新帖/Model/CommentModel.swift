@@ -1,6 +1,3 @@
-
-
-
 //
 //  CommentModel.swift
 //  BSBDJ

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -24,7 +24,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Y4q-si-ujw" customClass="GrowingTextView" customModule="GrowingTextView">
-                    <rect key="frame" x="0.0" y="20" width="375" height="80"/>
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="80" id="nYa-yc-x4b"/>
@@ -71,17 +71,16 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="0Db-Yz-7mC" firstAttribute="trailing" secondItem="mp2-C7-us6" secondAttribute="trailing" id="5wv-6s-c01"/>
-                <constraint firstItem="HCP-tY-Iq2" firstAttribute="leading" secondItem="mp2-C7-us6" secondAttribute="leading" id="9U8-c2-21C"/>
-                <constraint firstItem="Y4q-si-ujw" firstAttribute="leading" secondItem="mp2-C7-us6" secondAttribute="leading" id="JNv-kZ-hvp"/>
-                <constraint firstItem="Y4q-si-ujw" firstAttribute="trailing" secondItem="mp2-C7-us6" secondAttribute="trailing" id="SGF-ic-cMH"/>
+                <constraint firstItem="0Db-Yz-7mC" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="5wv-6s-c01"/>
+                <constraint firstItem="HCP-tY-Iq2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="9U8-c2-21C"/>
+                <constraint firstItem="Y4q-si-ujw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="JNv-kZ-hvp"/>
+                <constraint firstItem="Y4q-si-ujw" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="SGF-ic-cMH"/>
                 <constraint firstItem="HCP-tY-Iq2" firstAttribute="top" secondItem="0Db-Yz-7mC" secondAttribute="bottom" id="WQe-UQ-712"/>
-                <constraint firstItem="HCP-tY-Iq2" firstAttribute="trailing" secondItem="mp2-C7-us6" secondAttribute="trailing" id="a7I-bp-aJo"/>
-                <constraint firstItem="HCP-tY-Iq2" firstAttribute="bottom" secondItem="mp2-C7-us6" secondAttribute="bottom" id="aRS-Qh-3gv"/>
-                <constraint firstItem="Y4q-si-ujw" firstAttribute="top" secondItem="mp2-C7-us6" secondAttribute="top" id="cEE-HJ-Alw"/>
-                <constraint firstItem="0Db-Yz-7mC" firstAttribute="leading" secondItem="mp2-C7-us6" secondAttribute="leading" id="cxm-9d-zps"/>
+                <constraint firstItem="HCP-tY-Iq2" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="a7I-bp-aJo"/>
+                <constraint firstItem="HCP-tY-Iq2" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="aRS-Qh-3gv"/>
+                <constraint firstItem="Y4q-si-ujw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="cEE-HJ-Alw"/>
+                <constraint firstItem="0Db-Yz-7mC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="cxm-9d-zps"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="mp2-C7-us6"/>
             <point key="canvasLocation" x="-414.5" y="10.5"/>
         </view>
     </objects>
