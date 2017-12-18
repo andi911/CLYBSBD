@@ -68,9 +68,9 @@ extension MainTabBar {
 
     @objc fileprivate func clickPublishButton() {
 
-//        let publishVC = PublishViewController()
-//
-//        UIApplication.shared.keyWindow?.rootViewController?.present(publishVC, animated: false, completion: nil)
+        let publishVC = PublishViewController()
+
+        UIApplication.shared.keyWindow?.rootViewController?.present(publishVC, animated: false, completion: nil)
     }
 
 }

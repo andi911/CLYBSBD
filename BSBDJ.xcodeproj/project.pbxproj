@@ -52,6 +52,15 @@
 		2EB072B81FE78E4E0016AA31 /* CommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EB072B61FE78E4D0016AA31 /* CommentViewController.xib */; };
 		2EB072B91FE78E4E0016AA31 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB072B71FE78E4E0016AA31 /* CommentViewController.swift */; };
 		2EB072BB1FE78E810016AA31 /* CommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB072BA1FE78E810016AA31 /* CommentViewModel.swift */; };
+		2EB072C01FE797D10016AA31 /* PublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB072BE1FE797D10016AA31 /* PublishViewController.swift */; };
+		2EB072C41FE797ED0016AA31 /* PublishTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB072C21FE797ED0016AA31 /* PublishTextViewController.swift */; };
+		2EB072C71FE798120016AA31 /* PublishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EB072C61FE798120016AA31 /* PublishViewController.xib */; };
+		2EB072C91FE7981F0016AA31 /* PublishTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EB072C81FE7981F0016AA31 /* PublishTextViewController.xib */; };
+		2EB072CB1FE79B160016AA31 /* VeticalSqureBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB072CA1FE79B160016AA31 /* VeticalSqureBtn.swift */; };
+		2EB072CD1FE79B430016AA31 /* MeFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB072CC1FE79B430016AA31 /* MeFooterView.swift */; };
+		2EB072D01FE79BAC0016AA31 /* MeFootViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB072CF1FE79BAC0016AA31 /* MeFootViewVM.swift */; };
+		2EB072D31FE79BD20016AA31 /* MeWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB072D11FE79BD10016AA31 /* MeWebViewController.swift */; };
+		2EB072D61FE79BF90016AA31 /* MeFootModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB072D51FE79BF90016AA31 /* MeFootModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +132,15 @@
 		2EB072B61FE78E4D0016AA31 /* CommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentViewController.xib; sourceTree = "<group>"; };
 		2EB072B71FE78E4E0016AA31 /* CommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
 		2EB072BA1FE78E810016AA31 /* CommentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewModel.swift; sourceTree = "<group>"; };
+		2EB072BE1FE797D10016AA31 /* PublishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishViewController.swift; sourceTree = "<group>"; };
+		2EB072C21FE797ED0016AA31 /* PublishTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishTextViewController.swift; sourceTree = "<group>"; };
+		2EB072C61FE798120016AA31 /* PublishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PublishViewController.xib; sourceTree = "<group>"; };
+		2EB072C81FE7981F0016AA31 /* PublishTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PublishTextViewController.xib; sourceTree = "<group>"; };
+		2EB072CA1FE79B160016AA31 /* VeticalSqureBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeticalSqureBtn.swift; sourceTree = "<group>"; };
+		2EB072CC1FE79B430016AA31 /* MeFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeFooterView.swift; sourceTree = "<group>"; };
+		2EB072CF1FE79BAC0016AA31 /* MeFootViewVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeFootViewVM.swift; sourceTree = "<group>"; };
+		2EB072D11FE79BD10016AA31 /* MeWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeWebViewController.swift; sourceTree = "<group>"; };
+		2EB072D51FE79BF90016AA31 /* MeFootModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeFootModel.swift; sourceTree = "<group>"; };
 		5BADCC3C187461FE43E570CB /* Pods-BSBDJ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSBDJ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSBDJ/Pods-BSBDJ.debug.xcconfig"; sourceTree = "<group>"; };
 		D28C54D23ECE57A291F9B20F /* Pods-BSBDJ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSBDJ.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSBDJ/Pods-BSBDJ.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -325,6 +343,10 @@
 		2E61DDCC1FE76CF10023C9C9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2EB072BE1FE797D10016AA31 /* PublishViewController.swift */,
+				2EB072C61FE798120016AA31 /* PublishViewController.xib */,
+				2EB072C21FE797ED0016AA31 /* PublishTextViewController.swift */,
+				2EB072C81FE7981F0016AA31 /* PublishTextViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -383,6 +405,8 @@
 		2E61DDD31FE76CF10023C9C9 /* 我 */ = {
 			isa = PBXGroup;
 			children = (
+				2EB072CE1FE79B9E0016AA31 /* ViewModel */,
+				2EB072CF1FE79BAC0016AA31 /* MeFootViewVM.swift */,
 				2E61DDD41FE76CF10023C9C9 /* Controller */,
 				2E61DDD51FE76CF10023C9C9 /* Model */,
 				2E61DDD61FE76CF10023C9C9 /* View */,
@@ -394,6 +418,7 @@
 			isa = PBXGroup;
 			children = (
 				2E61DDE31FE76E280023C9C9 /* MeViewController.swift */,
+				2EB072D11FE79BD10016AA31 /* MeWebViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -401,6 +426,7 @@
 		2E61DDD51FE76CF10023C9C9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2EB072D51FE79BF90016AA31 /* MeFootModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -408,6 +434,8 @@
 		2E61DDD61FE76CF10023C9C9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2EB072CA1FE79B160016AA31 /* VeticalSqureBtn.swift */,
+				2EB072CC1FE79B430016AA31 /* MeFooterView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -433,6 +461,13 @@
 				2E61DDF71FE76F6D0023C9C9 /* Common.swift */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		2EB072CE1FE79B9E0016AA31 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		4198429E9D95AB5F2FC26D4F /* Pods */ = {
@@ -562,10 +597,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EB072C71FE798120016AA31 /* PublishViewController.xib in Resources */,
 				2E61DD9C1FE76C300023C9C9 /* LaunchScreen.storyboard in Resources */,
 				2EB072A11FE78C970016AA31 /* ContentCell.xib in Resources */,
 				2EB072B81FE78E4E0016AA31 /* CommentViewController.xib in Resources */,
 				2EB072A91FE78CB80016AA31 /* ContentPicture.xib in Resources */,
+				2EB072C91FE7981F0016AA31 /* PublishTextViewController.xib in Resources */,
 				2EB072AB1FE78CB80016AA31 /* ContentVideo.xib in Resources */,
 				2E61DD991FE76C300023C9C9 /* Assets.xcassets in Resources */,
 				2E61DDEE1FE76F340023C9C9 /* Controller in Resources */,
@@ -658,17 +695,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EB072CB1FE79B160016AA31 /* VeticalSqureBtn.swift in Sources */,
 				2E61DDF81FE76F6D0023C9C9 /* Common.swift in Sources */,
 				2EB072931FE7710A0016AA31 /* EssenceContentViewController.swift in Sources */,
+				2EB072D61FE79BF90016AA31 /* MeFootModel.swift in Sources */,
 				2E61DDF41FE76F340023C9C9 /* UIImageView+Extension.swift in Sources */,
 				2EB072AA1FE78CB80016AA31 /* ContentPicture.swift in Sources */,
+				2EB072CD1FE79B430016AA31 /* MeFooterView.swift in Sources */,
 				2E61DDE41FE76E280023C9C9 /* MeViewController.swift in Sources */,
+				2EB072D01FE79BAC0016AA31 /* MeFootViewVM.swift in Sources */,
 				2EB072B41FE78D1F0016AA31 /* CommentCell.swift in Sources */,
 				2EB072AD1FE78CB80016AA31 /* ContentVoice.swift in Sources */,
 				2E61DDF51FE76F340023C9C9 /* UIView+Extension.swift in Sources */,
 				2EB072991FE7870C0016AA31 /* ContentModel.swift in Sources */,
 				2E61DDF31FE76F340023C9C9 /* UIImage+Extension.swift in Sources */,
 				2E61DDF01FE76F340023C9C9 /* String+Extension.swift in Sources */,
+				2EB072C41FE797ED0016AA31 /* PublishTextViewController.swift in Sources */,
 				2E61DDDA1FE76D4A0023C9C9 /* MainTabBar.swift in Sources */,
 				2E61DDDE1FE76DE60023C9C9 /* EssenceViewController.swift in Sources */,
 				2E61DDE01FE76DFD0023C9C9 /* NewViewController.swift in Sources */,
@@ -679,11 +721,13 @@
 				2E61DD941FE76C300023C9C9 /* ViewController.swift in Sources */,
 				2E61DDEF1FE76F340023C9C9 /* Date+Extension.swift in Sources */,
 				2EB072A01FE78C970016AA31 /* ContentCell.swift in Sources */,
+				2EB072D31FE79BD20016AA31 /* MeWebViewController.swift in Sources */,
 				2E61DDE21FE76E140023C9C9 /* FriendViewController.swift in Sources */,
 				2EB0729D1FE787650016AA31 /* EssenceNewViewModel.swift in Sources */,
 				2EB072B91FE78E4E0016AA31 /* CommentViewController.swift in Sources */,
 				2EB072AC1FE78CB80016AA31 /* ContentVideo.swift in Sources */,
 				2E61DDDC1FE76D4A0023C9C9 /* MainTabBarController.swift in Sources */,
+				2EB072C01FE797D10016AA31 /* PublishViewController.swift in Sources */,
 				2E61DDF21FE76F340023C9C9 /* UIColor+Extension.swift in Sources */,
 				2E61DDDB1FE76D4A0023C9C9 /* MainNavigationController.swift in Sources */,
 				2EB072971FE7831C0016AA31 /* UserModel.swift in Sources */,
