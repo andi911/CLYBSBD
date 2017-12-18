@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -43,21 +43,20 @@
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="pPh-o7-I8m" firstAttribute="top" secondItem="Kyf-Mh-OYQ" secondAttribute="bottom" constant="-40" id="2lL-wb-OOE"/>
-                <constraint firstItem="8z9-GR-Ywe" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="5L5-fp-bqq"/>
-                <constraint firstItem="pPh-o7-I8m" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="HBz-7w-GqR"/>
-                <constraint firstItem="pPh-o7-I8m" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="Hi7-yX-IFx"/>
-                <constraint firstItem="xqF-Gh-bCO" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="JsS-Pq-Qhm"/>
-                <constraint firstItem="xqF-Gh-bCO" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="a3B-JW-9Df"/>
-                <constraint firstItem="8z9-GR-Ywe" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="aA2-cq-eGW"/>
+                <constraint firstItem="8z9-GR-Ywe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="5L5-fp-bqq"/>
+                <constraint firstItem="pPh-o7-I8m" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="HBz-7w-GqR"/>
+                <constraint firstItem="pPh-o7-I8m" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="Hi7-yX-IFx"/>
+                <constraint firstItem="xqF-Gh-bCO" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="JsS-Pq-Qhm"/>
+                <constraint firstItem="xqF-Gh-bCO" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="a3B-JW-9Df"/>
+                <constraint firstItem="8z9-GR-Ywe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="aA2-cq-eGW"/>
                 <constraint firstItem="lMw-tR-kji" firstAttribute="centerY" secondItem="pPh-o7-I8m" secondAttribute="centerY" id="caM-l6-GFs"/>
                 <constraint firstItem="Kyf-Mh-OYQ" firstAttribute="centerX" secondItem="pPh-o7-I8m" secondAttribute="centerX" id="eJx-Pf-70d"/>
-                <constraint firstItem="pPh-o7-I8m" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="nh8-0m-nnq"/>
+                <constraint firstItem="pPh-o7-I8m" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="nh8-0m-nnq"/>
                 <constraint firstItem="lMw-tR-kji" firstAttribute="centerX" secondItem="pPh-o7-I8m" secondAttribute="centerX" id="oAX-ut-p9E"/>
-                <constraint firstItem="pPh-o7-I8m" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="w0M-fQ-HQ9"/>
-                <constraint firstItem="xqF-Gh-bCO" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="xzt-PV-Zkh"/>
+                <constraint firstItem="pPh-o7-I8m" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="w0M-fQ-HQ9"/>
+                <constraint firstItem="xqF-Gh-bCO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xzt-PV-Zkh"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
                 <outlet property="bgView" destination="Kyf-Mh-OYQ" id="nZb-5w-fmh"/>
                 <outlet property="gifView" destination="8z9-GR-Ywe" id="wLx-RE-UEk"/>
@@ -65,7 +64,7 @@
                 <outlet property="progressView" destination="lMw-tR-kji" id="MUG-fl-yuQ"/>
                 <outlet property="seeBigButton" destination="xqF-Gh-bCO" id="8XW-dm-TbM"/>
             </connections>
-            <point key="canvasLocation" x="-197" y="9"/>
+            <point key="canvasLocation" x="-92" y="25"/>
         </view>
     </objects>
     <resources>

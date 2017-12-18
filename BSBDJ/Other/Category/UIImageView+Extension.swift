@@ -19,13 +19,13 @@ extension UIImageView {
         guard let url =  URL(string: imageUrl)  else {
             return
         }
-//        kf.setImage(with: url, placeholder: UIImage(named: "defaultUserIcon")) { (image, error, cache, url) in
-//
-//            if image != nil {
-//                self.image = image?.cicleImage()
-//
-//            }
-//        }
+        kf.setImage(with: url, placeholder: UIImage(named: "defaultUserIcon")) { (image, error, cache, url) in
+
+            if image != nil {
+                self.image = image?.cicleImage()
+
+            }
+        }
 
     }
 
