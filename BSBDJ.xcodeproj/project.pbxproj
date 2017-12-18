@@ -31,6 +31,7 @@
 		2E61DDF41FE76F340023C9C9 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E61DDEC1FE76F330023C9C9 /* UIImageView+Extension.swift */; };
 		2E61DDF51FE76F340023C9C9 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E61DDED1FE76F330023C9C9 /* UIView+Extension.swift */; };
 		2E61DDF81FE76F6D0023C9C9 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E61DDF71FE76F6D0023C9C9 /* Common.swift */; };
+		2EB072931FE7710A0016AA31 /* EssenceContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB072921FE7710A0016AA31 /* EssenceContentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		2E61DDEC1FE76F330023C9C9 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		2E61DDED1FE76F330023C9C9 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		2E61DDF71FE76F6D0023C9C9 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		2EB072921FE7710A0016AA31 /* EssenceContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EssenceContentViewController.swift; sourceTree = "<group>"; };
 		5BADCC3C187461FE43E570CB /* Pods-BSBDJ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSBDJ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSBDJ/Pods-BSBDJ.debug.xcconfig"; sourceTree = "<group>"; };
 		D28C54D23ECE57A291F9B20F /* Pods-BSBDJ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSBDJ.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSBDJ/Pods-BSBDJ.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -299,6 +301,7 @@
 			isa = PBXGroup;
 			children = (
 				2E61DDDD1FE76DE60023C9C9 /* EssenceViewController.swift */,
+				2EB072921FE7710A0016AA31 /* EssenceContentViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -590,6 +593,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E61DDF81FE76F6D0023C9C9 /* Common.swift in Sources */,
+				2EB072931FE7710A0016AA31 /* EssenceContentViewController.swift in Sources */,
 				2E61DDF41FE76F340023C9C9 /* UIImageView+Extension.swift in Sources */,
 				2E61DDE41FE76E280023C9C9 /* MeViewController.swift in Sources */,
 				2E61DDF51FE76F340023C9C9 /* UIView+Extension.swift in Sources */,
