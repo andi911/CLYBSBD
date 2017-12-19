@@ -22,13 +22,12 @@ class EssenceNewViewModel: NSObject {
         parameter["maxtime"] = maxTime
         userTempDic = parameter
         let url = URL(string: "http://api.budejie.com/api/api_open.php")
-        Alamofire.request(url!, method: .get, parameters: parameter).responseJSON { (response) in
+        Alamofire.request(url!, method: .post, parameters: parameter).responseJSON { (response) in
 
             if userTempDic != parameter {
                 return
             }
             switch response.result {
-
 
             case let .success(value):
                 guard let dict = value as? [String: Any] else {

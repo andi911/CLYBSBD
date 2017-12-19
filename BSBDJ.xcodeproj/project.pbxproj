@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2D398E3D6EDABF80666F0C62 /* Pods_BSBDJ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A884AB52F036DA6A175B23C /* Pods_BSBDJ.framework */; };
+		2E13207D1FE89FD7008296F5 /* FriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E13207C1FE89FD7008296F5 /* FriendViewController.xib */; };
+		2E13207F1FE8A3A5008296F5 /* NSCommonNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E13207E1FE8A3A5008296F5 /* NSCommonNet.swift */; };
 		2E61DD921FE76C300023C9C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E61DD911FE76C300023C9C9 /* AppDelegate.swift */; };
 		2E61DD941FE76C300023C9C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E61DD931FE76C300023C9C9 /* ViewController.swift */; };
 		2E61DD971FE76C300023C9C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E61DD951FE76C300023C9C9 /* Main.storyboard */; };
@@ -22,7 +24,6 @@
 		2E61DDE01FE76DFD0023C9C9 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E61DDDF1FE76DFD0023C9C9 /* NewViewController.swift */; };
 		2E61DDE21FE76E140023C9C9 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E61DDE11FE76E140023C9C9 /* FriendViewController.swift */; };
 		2E61DDE41FE76E280023C9C9 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E61DDE31FE76E280023C9C9 /* MeViewController.swift */; };
-		2E61DDEE1FE76F340023C9C9 /* Controller in Resources */ = {isa = PBXBuildFile; fileRef = 2E61DDE61FE76F330023C9C9 /* Controller */; };
 		2E61DDEF1FE76F340023C9C9 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E61DDE71FE76F330023C9C9 /* Date+Extension.swift */; };
 		2E61DDF01FE76F340023C9C9 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E61DDE81FE76F330023C9C9 /* String+Extension.swift */; };
 		2E61DDF11FE76F340023C9C9 /* UIBarButtonItem+Extesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E61DDE91FE76F330023C9C9 /* UIBarButtonItem+Extesion.swift */; };
@@ -81,6 +82,8 @@
 
 /* Begin PBXFileReference section */
 		0A884AB52F036DA6A175B23C /* Pods_BSBDJ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSBDJ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E13207C1FE89FD7008296F5 /* FriendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendViewController.xib; sourceTree = "<group>"; };
+		2E13207E1FE8A3A5008296F5 /* NSCommonNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSCommonNet.swift; sourceTree = "<group>"; };
 		2E61DD8E1FE76C300023C9C9 /* BSBDJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSBDJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E61DD911FE76C300023C9C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E61DD931FE76C300023C9C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,7 +104,6 @@
 		2E61DDDF1FE76DFD0023C9C9 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		2E61DDE11FE76E140023C9C9 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
 		2E61DDE31FE76E280023C9C9 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
-		2E61DDE61FE76F330023C9C9 /* Controller */ = {isa = PBXFileReference; lastKnownFileType = file; path = Controller; sourceTree = "<group>"; };
 		2E61DDE71FE76F330023C9C9 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		2E61DDE81FE76F330023C9C9 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		2E61DDE91FE76F330023C9C9 /* UIBarButtonItem+Extesion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extesion.swift"; sourceTree = "<group>"; };
@@ -310,6 +312,7 @@
 			isa = PBXGroup;
 			children = (
 				2E61DDE11FE76E140023C9C9 /* FriendViewController.swift */,
+				2E13207C1FE89FD7008296F5 /* FriendViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -440,7 +443,6 @@
 		2E61DDE51FE76F330023C9C9 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				2E61DDE61FE76F330023C9C9 /* Controller */,
 				2E61DDE71FE76F330023C9C9 /* Date+Extension.swift */,
 				2E61DDE81FE76F330023C9C9 /* String+Extension.swift */,
 				2E61DDE91FE76F330023C9C9 /* UIBarButtonItem+Extesion.swift */,
@@ -456,6 +458,7 @@
 			isa = PBXGroup;
 			children = (
 				2E61DDF71FE76F6D0023C9C9 /* Common.swift */,
+				2E13207E1FE8A3A5008296F5 /* NSCommonNet.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -594,6 +597,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E13207D1FE89FD7008296F5 /* FriendViewController.xib in Resources */,
 				2EB072C71FE798120016AA31 /* PublishViewController.xib in Resources */,
 				2E61DD9C1FE76C300023C9C9 /* LaunchScreen.storyboard in Resources */,
 				2EB072A11FE78C970016AA31 /* ContentCell.xib in Resources */,
@@ -602,7 +606,6 @@
 				2EB072C91FE7981F0016AA31 /* PublishTextViewController.xib in Resources */,
 				2EB072AB1FE78CB80016AA31 /* ContentVideo.xib in Resources */,
 				2E61DD991FE76C300023C9C9 /* Assets.xcassets in Resources */,
-				2E61DDEE1FE76F340023C9C9 /* Controller in Resources */,
 				2EB072B51FE78D1F0016AA31 /* CommentCell.xib in Resources */,
 				2EB072A81FE78CB80016AA31 /* ContentVoice.xib in Resources */,
 				2E61DD971FE76C300023C9C9 /* Main.storyboard in Resources */,
@@ -699,6 +702,7 @@
 				2E61DDF41FE76F340023C9C9 /* UIImageView+Extension.swift in Sources */,
 				2EB072AA1FE78CB80016AA31 /* ContentPicture.swift in Sources */,
 				2EB072CD1FE79B430016AA31 /* MeFooterView.swift in Sources */,
+				2E13207F1FE8A3A5008296F5 /* NSCommonNet.swift in Sources */,
 				2E61DDE41FE76E280023C9C9 /* MeViewController.swift in Sources */,
 				2EB072D01FE79BAC0016AA31 /* MeFootViewVM.swift in Sources */,
 				2EB072B41FE78D1F0016AA31 /* CommentCell.swift in Sources */,

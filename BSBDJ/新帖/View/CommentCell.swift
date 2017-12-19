@@ -21,11 +21,6 @@ class CommentCell: UITableViewCell {
 
     @IBOutlet weak var zaiCountLabel: UILabel!
 
-
-
-
-
-
     public func setupUI(_ comment: CommentModel) {
 
         headerView.setHeaderImage(comment.user.profile_image)
